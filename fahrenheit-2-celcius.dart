@@ -6,5 +6,7 @@ void main() {
 
   var celcius = (fahrenheit - 32) * 5 / 9;
 
-  print("$fahrenheit derajat Fahrenheit = $celcius derajat celcius");
+  var hasil = "${num.parse(celcius.toStringAsFixed(2))}";
+
+  print("$fahrenheit derajat Fahrenheit = $hasil derajat celcius");
 }
